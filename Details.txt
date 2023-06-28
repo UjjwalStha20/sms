@@ -1,0 +1,18 @@
+SMS(system Management System)
+
+1.User -Login -Teacher
+2.Teacher
+3.Student
+4.Department
+5.Semester
+
+CRUD(create read update delete)
+
+
+pages
+#login
+#Register
+#User->C
+#User->R
+#User->U
+

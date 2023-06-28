@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.container {
+    display: grid;
+   font-size: 18px;
+   width: 100vw;
+   height: 100vh;
+   display: grid;
+   justify-content: center;
+   padding-top: 50px;
+   
+
+}
+.container .form-box{
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    height: 75%;
+    display: grid;
+    text-align: center;
+}
+.form-box h2{
+    font-size: 2em;
+    text-align: center; 
+}
+input{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+.forgetpw{
+    text-align: right;
+    font-size: 15px;
+}
+.button{
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: grey;
+}

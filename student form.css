@@ -1,0 +1,127 @@
+body{
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    width: 90%;
+    top: 10px;
+    border: 2px solid #000;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.container form{
+    
+    position: relative;
+    border-radius: 20px;
+    margin-top: 16px;
+    background-color: rgb(235, 229, 229);
+    padding: 10px;
+}
+form .divform{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.container form .field{
+    display: flex;
+    align-items: left;
+    justify-content:left;
+    padding: 5px;
+}
+form .field .inputfield{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3 -15px);
+    padding: 0px 20px;
+    padding-left: 0px;
+    height: 39px;
+}
+.others{
+    padding: 5px;
+}
+.others input{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2 );
+    height: 20px;
+    
+}
+.genderbox{
+    padding: 5px;
+}
+.form .gender-option{
+    display: flex;
+    column-gap: 15px;
+    cursor: pointer;
+    
+}
+.date{
+    padding: 5px;
+}
+.date .dates{
+    display: flex;
+    height: 20px;
+    width:fit-content;
+    cursor: pointer;
+    padding: ;
+}
+fieldset{
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 50%;
+}
+legend{
+    font-size: 20px;
+}
+
+.qualifi .see .seedetail{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 5px;
+}
+.seedetail .gpa{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3 -10px);
+    padding: 0px 20px;
+    padding-left: 0px;
+    
+}
+.gpa select{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.seedetails .school{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2);
+    padding: 5px;
+    
+}.seedetails .certificate{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2);
+    padding: 5px;
+    
+}
+
+.submit button{
+    display:grid;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);;
+}
+input{
+    font-size: 12px;
+}
